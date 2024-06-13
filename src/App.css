@@ -1,0 +1,29 @@
+.name {
+    position: relative;
+    font-size: 84px;
+    font-style: italic;
+    line-height: 1;
+    display: block;
+}
+
+.back {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-weight: 700;
+  font-size: 34px;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .name {
+    position: relative;
+    font-size: 71px;
+    font-style: italic;
+    line-height: 1;
+    display: block;
+}
+}
