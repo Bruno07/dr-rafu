@@ -10,8 +10,8 @@ export default function App() {
   return (
     <div>
       
-      <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-        <span className="sr-only">Open sidebar</span>
+      <button id="sidebarToggle" data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        <span className="sr-only">Menu</span>
         <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
         <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
         </svg>
@@ -93,7 +93,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
             <div className='col-span-2'>
               <h1 className='text-gray-800 text-3xl md:text-3xl lg:text-6xl font-inter font-bold'>Olá, sou o <span className='text-violet-400'>Dr. Rafú JR !</span> Que bom ter você aqui conhecendo minha história e meus projetos</h1>
-              <p className='mt-5 text-gray-500 font-karla'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo animi asperiores perspiciatis eaque fuga, sed vel fugit cum eligendi accusantium quia consequuntur. Laborum inventore enim ipsum, dignissimos officia distinctio.</p>
+              <p className='mt-5 text-gray-500 font-karla'>Joseph Raffoul Junior, nascido em 20 de março de 1986 em São Paulo, se formou em medicina.</p>
               
               <a href="#projeto" className='mt-3' >
                 <button type="button" class="mt-5 font-karla text-white hover:text-gray-900 border bg-gray-900 hover:border-gray-800 hover:bg-transparent focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">Ver projetos</button>
